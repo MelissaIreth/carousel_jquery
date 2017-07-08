@@ -1,21 +1,48 @@
-.content-area {
-  position: relative;
-  width: 960px; 
+.container{
+  max-width: 900px;
   margin: 0 auto;
+  text-align: center;
+  position: relative;
 }
 
-.carousel-indicators li { 
-border-radius: 50%; 
-height: 20px;
-width: 20px;
+.container div{
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
 }
 
-.carousel-indicators .active {
-height: 25px;
-width: 25px;
+.container img{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
 }
 
-body{
-  background-color: gray;
-  color: whitesmoke;
+button{
+  position: absolute;
+  margin-top: 300px;
+  background-color: transparent;
+  border: 0;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.next{
+  right: 190px;
+}
+
+.prev{
+  left: 190px;
+}
+
+.imges{
+  display: inline-block;
+}
+
+.carousel-indicators{
+  color: black;
+}
+
+ul{
+  margin-bottom: 60px;
 }
